@@ -61,7 +61,7 @@ namespace Fbo.CryptoMarketData.JsonUtils
         /// <param name="serializer">The calling serializer.</param>
         /// <exception cref="Fbo.CryptoMarketData.Exceptions.CryptoMarketDataException">
         /// is thrown if <paramref name="value"/> is not <see cref="System.DateTime"/> or <see langword="null"/>.
-        /// An inner exception is created with more information about the <paramref name="value"/> received.</exception>
+        /// An inner exception is created with more information about the <paramref name="value"/> received and its data type.</exception>
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             if ((value != null) && (!value.GetType().Equals(typeof(DateTime))))
