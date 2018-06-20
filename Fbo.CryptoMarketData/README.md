@@ -1,16 +1,15 @@
-# Fbo.CryptoMarketData
+# Fbo.CryptoMarketData - CoinMarketCap Client Documentation
+	
+	
+Every call to the API using "CmcClient" returns a "CmcResponse" object.
 
-CoinMarketCap Basic Documentation
-	
-	
-Every call to the API with CmcClient returns a CmcResponse object.
 This object has three properties:
 
-	- Success: a boolean value indicating whether the response from the API was successful or not;
+- Success: a boolean value indicating whether the response from the API was successful or not;
 	
-	- Data: The data returned from the API. The type of this object varies according to the endpoint.
+- Data: The data returned from the API. The type of this object varies according to the endpoint.
 	
-	- Metadata: a CmcMetadata object containing metadata returned from the API. The content of this object varies according to the endpoint.
+- Metadata: a CmcMetadata object containing metadata returned from the API. The content of this object varies according to the endpoint.
 	
 	
 Basic Usage:
