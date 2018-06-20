@@ -1,4 +1,4 @@
-# Fbo.CryptoMarketData - CoinMarketCap Client Documentation
+# CoinMarketCap Client (CmcClient)
 	
 	
 Every call to the API using "CmcClient" returns a "CmcResponse" object.
